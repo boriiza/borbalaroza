@@ -5,7 +5,7 @@
     top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -15,10 +15,11 @@
 }
 
 .nav-bar {
-    width:70%;
-    border-bottom: 3px solid rgba(255, 255, 255);
+    width:50%;
+    height: 100px;
+    border-bottom: 2px solid rgba(255, 255, 255);
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -31,7 +32,7 @@ body{
 .header {
     overflow: hidden;
     padding: 20px 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
   
 /* Style the header links */
@@ -48,8 +49,9 @@ body{
   
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 .header a.logo {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
+    font-family: "Reenie Beanie", sans-serif;
 }
   
 /* Change the background color on mouse-over */
